@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "http://json.schema-repo.ciril.lan/meta-schema/schema-reference.schema.json",
+  "$id": "https://raw.githubusercontent.com/romain325/json-schema/refs/heads/main/meta-schema/schema-reference.schema.json",
   "description": "Schema Reference of the https://json.schemastore.org/schema-catalog.json (compatibility with SchemaStore API)",
   "type":"object",
   "required":[
