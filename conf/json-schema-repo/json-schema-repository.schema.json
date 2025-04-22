@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/romain325/json-schema/refs/heads/main/conf/json-schema-repo/json-schema-repository.schema.json",
+  "title": "json-schema-repository Config",
+  "description": "Description of the configuration for json-schema-repository app",
+  "properties": {
+    "server": {
+      "type": "object",
+      "properties": {
+        "port": {
+          "type": "string",
+          "default": "8080"
+        },
+        "host": {
+          "type": "string"
+        }
+      }
+    },
+    "database": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "default": "mongodb://localhost:27017"
+        },
+        "database": {
+          "type": "string",
+          "default": "json-schema-repository"
+        },
+        "username": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+    "schema": {
+      "type": "object",
+      "properties": {
+        "folder": {
+          "type": "string",
+          "default": "/tmp/schema"
+        }
+      }
+    }
+  }
+}
